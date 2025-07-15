@@ -1,0 +1,12 @@
+version: "2"
+linters:
+  default: all
+  disable:
+    - revive
+    - depguard
+    - perfsprint
+formatters:
+  enable:
+    - golines
+    - gofumpt
+    - gci
