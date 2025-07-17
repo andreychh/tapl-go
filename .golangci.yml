@@ -5,6 +5,8 @@ linters:
     - revive
     - depguard
     - perfsprint
+    - ireturn
+    - wrapcheck
 formatters:
   enable:
     - golines
